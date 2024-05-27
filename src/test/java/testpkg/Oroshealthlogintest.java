@@ -36,7 +36,6 @@ public class Oroshealthlogintest extends Oroshealthbase
 		      Thread.sleep(2000);
 		  
 		  String actual= driver.getCurrentUrl();
-		  //System.out.println(actual);
 	      String expected= "https://oros-dev-portal-jfts4.ondigitalocean.app/user/listUsers";
 	      if(actual.equals(expected))
 	      {
